@@ -14,7 +14,7 @@ b_index = [None for i in range(n)]
 global_min = inf
 sum = 0
 
-# sort output array and find global minimum mass
+# create output array and find global minimum mass
 for i in range(n):
     b_index[b[i]] = i
     if m[i] < global_min:
